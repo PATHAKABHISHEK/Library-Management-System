@@ -12,12 +12,15 @@
         <header>
             <h1>User's Personal Details</h1>
         </header>
-        <figure>
-            <img src = "" alt = "user photo">
-            <figcaption>User's Name</figcaption>
+        <figure><!--This is used to put user photo-->
+            <img src = "" alt = "user photo"><!--User Image Goes here-->
+            <figcaption>User's Name</figcaption><!--User Full Name Goes Here-->
         </figure>
         <main>
-            <table>
+            <!-- below there is a table that is being 
+                used to describe personal info of user-->
+            <table><!-- We Will be updating the 
+                information in the table ny the help of database-->
                 <tr>
                     <td>First Name</td>
                     <td>First Template Name Goes Here</td>
@@ -50,17 +53,45 @@
                     <td>Books Issued in Different Slots</td>
                     
                     <td>
-                        <tr>
+                        <tr><!--there are 3 slots which are used 
+                            to issue maximum of 3 books-->
                             <th>Slot 1</th>
                             <th>Slot 2</th>
                             <th>Slot 3</th>
                         </tr>
-                        <tr>
+                        <tr><!-- 3 books that are inserted 
+                            into each of the slots-->
                             <td>Book no. 1</td>
                             <td>Book no. 2</td>
                             <td>Book no. 3</td>
                         </tr>
                     </td>
+                </tr>
+                <tr>
+                    <td>Fine On Books</td>
+                    <td>30 in Rupees</td>
+                </tr>
+                <!-- From Below Row Onwards We are Showing the user about 
+                    Due Dates for different books that he/she has issued  -->
+                <tr>
+                    <td>Due Date For Book 1</td>
+                    <td>24-09-2018</td>
+                </tr>
+                <tr>
+                    <td>Due Date For Book 1</td>
+                    <td>24-09-2018</td>
+                </tr>
+                <tr>
+                    <td>Due Date For Book 1</td>
+                    <td>24-09-2018</td>
+                </tr><!-- here Due Dates Rows Ended-->
+                <tr>
+                <td><!-- Here there is a button which will helps user 
+                    to jump on to the next page where user will find his/her 
+                    past history of books that he/she had issued from library-->
+                    <a href = "#"><input type = "button" value = "See History Of Books Issued">
+                    </a>
+                </td>
                 </tr>
             </table>
         </main>
