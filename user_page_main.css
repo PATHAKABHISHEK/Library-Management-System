@@ -1,0 +1,24 @@
+header{
+    display:flex;
+    flex-direction:column;
+}
+#header{
+    align-self: center;
+}
+
+
+main{
+    display:grid;
+    grid-template-columns: auto auto;
+}
+
+
+figure{
+    grid-column: 1/2;
+    
+}
+
+table{
+    grid-column:2/3;
+}
+
