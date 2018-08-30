@@ -2,6 +2,7 @@
 <html lang = "en">
     <head>
         <title>Library-Management-Web-App</title>
+        <link rel = "stylesheet" type = "text/css" href = "./user_page_basic.css" >
         <meta charset="UTF-8">
         <meta name="description" content="Web App For Library Management System.Here user can see personal info as well as info related to library.">
         <meta name="keywords" content="Library Management System, userpage, user_details">
@@ -10,7 +11,7 @@
     </head>
     <body>
         <header>
-            <h1>User's Personal Details</h1>
+            <h1 id = "header">User's Personal Details</h1>
         </header>
         <figure><!--This is used to put user photo-->
             <img src = "" alt = "user photo"><!--User Image Goes here-->
@@ -19,7 +20,7 @@
         <main>
             <!-- below there is a table that is being 
                 used to describe personal info of user-->
-            <table><!-- We Will be updating the 
+            <table border = "0"><!-- We Will be updating the 
                 information in the table ny the help of database-->
                 <tr>
                     <td>First Name</td>
@@ -51,8 +52,7 @@
                 </tr>
                 <tr>
                     <td>Books Issued in Different Slots</td>
-                    
-                    <td>
+                    <td colspan = "2">
                         <tr><!--there are 3 slots which are used 
                             to issue maximum of 3 books-->
                             <th>Slot 1</th>
@@ -86,7 +86,7 @@
                     <td>24-09-2018</td>
                 </tr><!-- here Due Dates Rows Ended-->
                 <tr>
-                <td><!-- Here there is a button which will helps user 
+                <td colspan = "2"><!-- Here there is a button which will helps user 
                     to jump on to the next page where user will find his/her 
                     past history of books that he/she had issued from library-->
                     <a href = "#"><input type = "button" value = "See History Of Books Issued">
