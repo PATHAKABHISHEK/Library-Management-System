@@ -1,0 +1,27 @@
+header{
+    display:flex;
+    flex-direction:column;
+}
+#header{
+    align-self: center;
+}
+
+
+main{
+    display:flex;
+    flex-direction:column;
+}
+form{
+    align-self: center;
+    
+}
+div{
+    display:flex;
+    flex-direction:column;
+}
+#submit{
+    align-self:center;
+    background-color:burlywood; 
+}
+
+

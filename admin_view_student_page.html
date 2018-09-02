@@ -1,0 +1,39 @@
+<!Doctype HTML>
+<html lang = "en">
+    <head>
+        <title>Library-Management-Web-App</title>
+        <link rel = "stylesheet" type = "text/css" href = "./admin_view_student_basic.css">
+        <link rel = "stylesheet" type = "text/css" href = "./admin_view_student_main.css">
+        <meta charset="UTF-8">
+        <meta name="description" content="Web App For Library Management System">
+        <meta name="keywords" content="Library Management System">
+        <meta name="author" content="Abhishek Pathak">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <!-- by the help of this page
+        admin will be able to view student details -->
+        <header>
+            <h1 id = "header">View Student</h1>
+        </header>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <main>
+            <form action = "admin_view_student_page.php" method = "POST">
+                <label for = "enrollment_number">Enrollment Number: </label>
+                <input type = "number" value = "enrollment_number" name = "enrollment_number"placeholder = "Enter Enrollement Number" style = "height:30px; width:250px" required>
+                
+                <br>
+                <br>
+                <br>
+                <div>
+                    <input id = "submit" type = "submit" value = "GO !!!" style = "height:50px; width:300px" >    
+                </div>
+                
+            </form>
+        </main>
+    </body>
+</html>

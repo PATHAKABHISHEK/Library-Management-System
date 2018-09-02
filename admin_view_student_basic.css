@@ -1,0 +1,29 @@
+body{
+    background-color: #84ff00;
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+header{
+    border: 2px solid #fffeee;
+    
+    
+}
+#header{
+    font-weight: 800;
+    font-size: 80px;
+    font-family: monospace;
+    color: #ffffff;
+}
+
+
+form{
+    border:5px solid #ff0000;
+    display:block;
+    height: 250px;
+    width:600px;
+    font-family: monospace;
+    font-weight:500;
+    font-size: 30px;
+}
