@@ -1,0 +1,19 @@
+header{
+    grid-template-rows: auto auto;
+    display:flex;
+    flex-direction:column;
+   
+}
+
+h1{
+    grid-row: 1/2;
+    align-self: center;
+    justify-content:center;
+}
+
+nav{
+    grid-row:2/3;
+    align-self: center;
+    justify-content: center;
+    
+}

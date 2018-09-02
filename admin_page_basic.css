@@ -17,9 +17,14 @@ header{
     color: #ffffff;
 }
 
+nav{
+    background-color: #ffffff;
+    
+}
 
 #navigation li{
     display: inline;
+    margin:10px;
 }
 #navigation a {
     text-decoration:none;
