@@ -1,0 +1,17 @@
+header{
+    display:flex;
+    flex-direction:column;
+}
+
+#header{
+    align-self:center; 
+}
+
+form{
+    display:flex;
+    flex-direction:column;
+}
+
+#form_wrapper{
+    align-self:center;
+}

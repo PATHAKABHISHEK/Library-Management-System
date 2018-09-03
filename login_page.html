@@ -2,12 +2,14 @@
 <html lang = "en">
     <head>
         <title>Library-Management-Web-App</title>
+        <link rel = "stylesheet" href = "./login_page_basic.css" type = "text/css">
+        <link rel = "stylesheet" href = "./login_page_main.css" type = "text/css">
         <meta charset="UTF-8">
         <meta name="description" content="Web App For Library Management System">
         <meta name="keywords" content="Library Management System, login Page">
         <meta name="author" content="Abhishek Pathak">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel = "stylesheet" href = "./login_page.css" type = "text/css">
+        
     </head>
     <body>
         <header>
@@ -18,28 +20,38 @@
             </nav>
         </header>
         <form>
-            <h1>Create An Account</h1>
-            <input type = "text" placeholder = "Enter Your Name">
-            <select>
-                <option>CSE</option>
-                <option>ECE</option>
-                <option>EEE</option>
-                <option>MAE</option>
-                <option>CE</option>
-                <option>B.ARCH</option>
-                <option>BCA</option>
-                <option>MBA</option>
-            </select>
-            <select>
-                <option>1st</option>
-                <option>2nd</option>
-                <option>3rd</option>
-                <option>4th</option>
-            </select>
-            <input type = "email" placeholder = "Enter Your Email Address">
-            <input type = "number" placeholder = "Enter Your Enrollement Number">
-            <input type = "password" placeholder = "Set A PassWord For Your Account">
-            <input type = "password" placeholder = "Confirm Password">
+            <div id = "form_wrapper">
+                <h1>Create An Account</h1>
+                <input type = "text" placeholder = "Enter Your Name">
+                <br><br>
+                <select>
+                    <option>CSE</option>
+                    <option>ECE</option>
+                    <option>EEE</option>
+                    <option>MAE</option>
+                    <option>CE</option>
+                    <option>B.ARCH</option>
+                    <option>BCA</option>
+                    <option>MBA</option>
+                </select>
+                <br><br>
+                <select>
+                    <option>1st</option>
+                    <option>2nd</option>
+                    <option>3rd</option>
+                    <option>4th</option>
+                </select>
+                <br><br>
+                <input type = "email" placeholder = "Enter Your Email Address">
+                <br><br>
+                <input type = "number" placeholder = "Enter Your Enrollement Number">
+                <br><br>
+                <input type = "password" placeholder = "Set A PassWord For Your Account">
+                <br><br>
+                <input type = "password" placeholder = "Confirm Password">
+                <br><br>
+                <input type = "submit" value = "submit">
+            </div>
         </form>
     </body>
 </html>

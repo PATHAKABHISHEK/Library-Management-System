@@ -1,0 +1,22 @@
+body{
+    background-color:#ffb700;
+
+}
+
+header{
+    border: 2px solid #fffeee;
+    
+    
+}
+#header{
+    font-weight: 800;
+    font-size: 80px;
+    font-family: monospace;
+    color: #ffffff;
+}
+
+form{
+    border:2px solid #ffffff;
+    display:block;
+    height:500px;
+}
